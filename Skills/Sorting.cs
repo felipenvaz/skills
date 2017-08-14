@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Skills
 {
-    public class Class1
+    public class Sorting
     {
+
     }
 }
