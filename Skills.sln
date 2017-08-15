@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skills", "Skills\Skills.csproj", "{7084A734-A1B4-4593-978B-57C39F2221DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skills.Console", "Skills.Console\Skills.Console.csproj", "{861B9C8A-25BA-4A29-83A1-096A75EC756F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skills.Program", "Skills.Console\Skills.Program.csproj", "{861B9C8A-25BA-4A29-83A1-096A75EC756F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
