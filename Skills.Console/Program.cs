@@ -29,7 +29,7 @@ namespace Skills.Program
                 getSortTypeCaption += "\n" + value + ": " + Convert.ToInt32(value);
             }
             Console.WriteLine(getSortTypeCaption);
-
+            
 
             Console.ReadKey();
         }
