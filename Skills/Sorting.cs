@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Skills
 {
-    public class Sorting
+    public static class Sorting
     {
-        public IList<int> treeSort(IList<int> input)
+        public static IList<int> treeSort(IList<int> input)
         {
             TreeNode node = null;
             if (input.Count > 0)
@@ -22,7 +22,7 @@ namespace Skills
             return node == null ? new int[0] : node.getSortedValues();
         }
 
-        public IList<int> quickSort(IList<int> elements)
+        public static IList<int> quickSort(IList<int> elements)
         {
             if (elements.Count > 1)
             {

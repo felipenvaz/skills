@@ -42,15 +42,14 @@ namespace Skills.Program
                 var generatedArray = Helper.generateRandomArray(arraySize, maxValue);
                 Console.WriteLine("Generated array: " + string.Join(", ", generatedArray));
                 IList<int> sortedArray = null;
-                var sorting = new Sorting();
                 var a = DateTime.Now;
                 switch (sortTypeEnum)
                 {
                     case ESortType.TreeSort:
-                        sortedArray = sorting.treeSort(generatedArray);
+                        sortedArray = Sorting.treeSort(generatedArray);
                         break;
                     case ESortType.QuickSort:
-                        sortedArray = sorting.quickSort(generatedArray);
+                        sortedArray = Sorting.quickSort(generatedArray);
                         break;
                 }
                 var b = DateTime.Now;
