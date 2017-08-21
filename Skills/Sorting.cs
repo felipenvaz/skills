@@ -8,6 +8,11 @@ namespace Skills
 {
     public static class Sorting
     {
+        /// <summary>
+        /// Sorts a list using Treesort
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public static IList<int> treeSort(IList<int> input)
         {
             TreeNode node = null;
@@ -22,11 +27,18 @@ namespace Skills
             return node == null ? new int[0] : node.getSortedValues();
         }
 
+        /// <summary>
+        /// Sorts a list using Quicksort
+        /// </summary>
+        /// <param name="elements"></param>
+        /// <returns></returns>
         public static IList<int> quickSort(IList<int> elements)
         {
+            //If the list has only one element, it doesn't need sorting
             if (elements.Count > 1)
             {
                 IList<int> before = new List<int>();
+                //The last element is always the pivot
                 var pivot = elements.Last();
                 IList<int> after = new List<int>();
 
